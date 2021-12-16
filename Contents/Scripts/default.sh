@@ -1,7 +1,6 @@
 #!/bin/bash
 export PATH=/usr/local/bin:$PATH
-LIST=$(fasd -sR "$@")
-
+LIST="$(fasd -sR "$@")"
 echo "<items>"
 echo "$LIST" | perl -ne '
 	chomp;

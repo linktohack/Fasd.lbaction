@@ -26,11 +26,11 @@
 				<string>string</string>
 				<string>path</string>
 			</array>
+			<key>LBAllowsInstantReuseOfLastTextInputString</key>
+			<true/>
 			<key>LBKeepWindowActive</key>
 			<true/>
 			<key>LBLiveFeedbackEnabled</key>
-			<true/>
-			<key>LBRequiresArgument</key>
 			<true/>
 			<key>LBResultType</key>
 			<string>unknown</string>
